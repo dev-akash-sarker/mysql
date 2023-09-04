@@ -1,28 +1,32 @@
-# DATA TYPES
+# CREATE
 
-- Numeric Data Types:
+> table bananor jonno # create table statement use korbo
+> CREATE TABLE table_name
+> (
 
-1. SMALLINT
-2. INT
-3. BIGINT
+    column_name1 data_type(size),
+    column_name2 data_type(size),
+    column_name3 data_type(size),
 
-4. FLOAT
-5. DOUBLE(M,D)
-6. DECIMAL(M,D)
+)
 
-- Charecter Type
+# practical
 
-1. Char(m) => 8000 character
-2. VArchar(m) => 8000 character [should use]
-3. text
+> CREATE TABLE student
+> (
+> Roll int(5),
+> Name Varchar(20),
+> Gender Varchar(20),
+> Age int(3),
+> GPA double(3,2),
+> City varchar(20),
+> PRIMARY KEY(Roll)
+> );
 
-- Data and Time Data Types
+# RENAME
+> RENAME COMMAND 
+> RENAME TABLE old_name to new_name;
 
-1. YEAR (YYYY)
-2. DATE (YYYY-MM-DD)
-3. TIME(HH:MM:SS)
+# DROP
 
-- Some other data types
-
-1. BLOB [image , audio]
-2. Logical
+> DROP DATABASE DATABASE_NAME;
