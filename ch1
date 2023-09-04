@@ -1,32 +1,38 @@
-# CREATE
+# Inserting Records into table
 
-> table bananor jonno # create table statement use korbo
-> CREATE TABLE table_name
+# syntax for data insertion:
+
+> INSERT INTO table_name (column1, column2,... columnN)
+> VALUES (value1, value2,... valueN)
+
+> INSERT INTO student
 > (
 
-    column_name1 data_type(size),
-    column_name2 data_type(size),
-    column_name3 data_type(size),
+    Roll , Name , Gender , Age , GPA , City
 
 )
+VALUES
+(
+101, "Hasina" , "Female" , 17 , 4.50 , "Dhaka"
+);
 
-# practical
+> we can use multiple as
 
-> CREATE TABLE student
-> (
-> Roll int(5),
-> Name Varchar(20),
-> Gender Varchar(20),
-> Age int(3),
-> GPA double(3,2),
-> City varchar(20),
-> PRIMARY KEY(Roll)
-> );
+# INSERT INTO student
 
-# RENAME
-> RENAME COMMAND 
-> RENAME TABLE old_name to new_name;
+VALUES
+(
+104, "Toma" , "Female" , 17 , 4.50 , "Dhaka"
+),
+(
+105, "Bina" , "Female" , 17 , 4.50 , "Dhaka"
+),
+(
+106, "Shetu" , "Female" , 17 , 4.50 , "Dhaka"
+)
 
-# DROP
+# excercise wth creating table as above
 
-> DROP DATABASE DATABASE_NAME;
+# key field : Roll , Name , Gender , Age , GPA , City
+
+# value: 106, "Shetu" , "Female" , 17 , 4.50 , "Dhaka"
