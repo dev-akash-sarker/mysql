@@ -1,0 +1,98 @@
+database have 2 types:
+
+1. normal database
+2. relational database
+
+3. normal database:ekti matro file ba porshpor somporkohin ekadhik filer sagajje ze database toiri hoy, take shadharon database bole.
+
+4. relational database: porshpor somporkojukto ekadhik filer or tableler sahajje je database gothon kora hoy take , relational database bola hoy!
+
+Table -> row + column
+row: left to right
+column: up to bottom
+
+relational database er upadansomuho:
+
+1. field (column)
+2. record (row) (left to right)
+3. Value (data) (up to bottom)
+
+but there are another part called key-field.
+like :
+
+Roll Name
+101--Jhon
+102--Maddy
+
+ekhane 101, jhon and 102 , maddy holo record.
+ekhane 101,102 holo field.
+kintu Roll , Name holo key-feild
+
+key are 3 types:
+
+1. primary key (only one key)
+2. composite key (using 2 keyfield to get better solution)
+3. foreign key :
+   ekti table e jodi kono key primary key hoy and onno arek table eh shei same key normal key hoy taholy eke bole foreign key
+
+# Database Management System
+
+1. Data adminstration
+2. Database technology and management
+3. Users
+4. Data planning and modeling methodology
+
+above the combination of 1,2,3,4 are Database Management system
+
+# Database management system er kaj:
+
+1. Create Database
+2. Update Database
+3. Print Database
+4. Backup and Recovery Database
+5. Save Data
+6. Retrive Data
+7. Delete Data
+8. Secure Data etc
+
+# Database Management system uses:
+
+1. biman and relway
+2. banking
+3. shikkha protisthan
+4. manob sompod or human resoure
+5. E-commerce
+
+# RMBD = Relational Database Management System
+
+1. relational database hocche onk famous database
+2. ek ba ekadhik somporkojukto table thake
+
+# what is query ?
+
+# kono information khuje ber korar je niyom shetai holo query.
+
+# query onk rokom ache like:
+
+1. select query
+2. parametar query
+3. crosstab query
+4. unmatched query
+5. action query
+
+# select query
+
+# [01] database er table theke fild ba kolam nirbachon kore je query kora hoy shetai select query
+
+# [03] query krito data ke samari ba group akare show korar jonno je query porichalona kora hoy shetai crosstab query.
+
+# [04] kono shorter upor vitti kore ekti table er record er jonno onno tabeler sathe match na hole shetai unmatched datagulo khuje ber korar jonno je query shetai Unmatched query
+
+# [05] kono query rir result diye jokhon tabler data shomuher kono poriborton shadhon kora hoy shetai Action query.
+
+# Action query 4 prokar!
+
+1. Make table query
+2. Append Query
+3. Delete Query
+4. Update Query

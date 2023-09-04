@@ -1,0 +1,24 @@
+# SHOW CREATE DROP DATABASE
+
+1. Open your Xammp and start apache and mySql server
+2. Click admin to mysql server!
+
+# click on SQL:
+
+# mysql is not case sensitive
+
+# koyta database ache sheta dekhar jonno
+
+# each command will be finished with semi colon ";"
+
+# SHOW
+
+1. SHOW DATABASES;
+
+# Create Database and table
+
+1. CREATE DATABASE NAME;
+
+# Drop or delete database
+
+1. DROP DATABASE DATABASE_NAME;
