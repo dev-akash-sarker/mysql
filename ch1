@@ -1,24 +1,28 @@
-# SHOW CREATE DROP DATABASE
+# DATA TYPES
 
-1. Open your Xammp and start apache and mySql server
-2. Click admin to mysql server!
+- Numeric Data Types:
 
-# click on SQL:
+1. SMALLINT
+2. INT
+3. BIGINT
 
-# mysql is not case sensitive
+4. FLOAT
+5. DOUBLE(M,D)
+6. DECIMAL(M,D)
 
-# koyta database ache sheta dekhar jonno
+- Charecter Type
 
-# each command will be finished with semi colon ";"
+1. Char(m) => 8000 character
+2. VArchar(m) => 8000 character [should use]
+3. text
 
-# SHOW
+- Data and Time Data Types
 
-1. SHOW DATABASES;
+1. YEAR (YYYY)
+2. DATE (YYYY-MM-DD)
+3. TIME(HH:MM:SS)
 
-# Create Database and table
+- Some other data types
 
-1. CREATE DATABASE NAME;
-
-# Drop or delete database
-
-1. DROP DATABASE DATABASE_NAME;
+1. BLOB [image , audio]
+2. Logical
