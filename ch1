@@ -1,24 +1,38 @@
-# SHOW CREATE DROP DATABASE
+# Inserting Records into table
 
-1. Open your Xammp and start apache and mySql server
-2. Click admin to mysql server!
+# syntax for data insertion:
 
-# click on SQL:
+> INSERT INTO table_name (column1, column2,... columnN)
+> VALUES (value1, value2,... valueN)
 
-# mysql is not case sensitive
+> INSERT INTO student
+> (
 
-# koyta database ache sheta dekhar jonno
+    Roll , Name , Gender , Age , GPA , City
 
-# each command will be finished with semi colon ";"
+)
+VALUES
+(
+101, "Hasina" , "Female" , 17 , 4.50 , "Dhaka"
+);
 
-# SHOW
+> we can use multiple as
 
-1. SHOW DATABASES;
+# INSERT INTO student
 
-# Create Database and table
+VALUES
+(
+104, "Toma" , "Female" , 17 , 4.50 , "Dhaka"
+),
+(
+105, "Bina" , "Female" , 17 , 4.50 , "Dhaka"
+),
+(
+106, "Shetu" , "Female" , 17 , 4.50 , "Dhaka"
+)
 
-1. CREATE DATABASE NAME;
+# excercise wth creating table as above
 
-# Drop or delete database
+# key field : Roll , Name , Gender , Age , GPA , City
 
-1. DROP DATABASE DATABASE_NAME;
+# value: 106, "Shetu" , "Female" , 17 , 4.50 , "Dhaka"
