@@ -1,24 +1,32 @@
-# SHOW CREATE DROP DATABASE
+# CREATE
 
-1. Open your Xammp and start apache and mySql server
-2. Click admin to mysql server!
+> table bananor jonno # create table statement use korbo
+> CREATE TABLE table_name
+> (
 
-# click on SQL:
+    column_name1 data_type(size),
+    column_name2 data_type(size),
+    column_name3 data_type(size),
 
-# mysql is not case sensitive
+)
 
-# koyta database ache sheta dekhar jonno
+# practical
 
-# each command will be finished with semi colon ";"
+> CREATE TABLE student
+> (
+> Roll int(5),
+> Name Varchar(20),
+> Gender Varchar(20),
+> Age int(3),
+> GPA double(3,2),
+> City varchar(20),
+> PRIMARY KEY(Roll)
+> );
 
-# SHOW
+# RENAME
+> RENAME COMMAND 
+> RENAME TABLE old_name to new_name;
 
-1. SHOW DATABASES;
+# DROP
 
-# Create Database and table
-
-1. CREATE DATABASE NAME;
-
-# Drop or delete database
-
-1. DROP DATABASE DATABASE_NAME;
+> DROP DATABASE DATABASE_NAME;
