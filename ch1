@@ -1,1 +1,20 @@
-# HELLO WORLD
+# SELECT Statement
+
+- DDL -> CREATE , ALTER , DROP
+- DML -> INSERT , SELECT , UPDATE , DELETE
+
+# DDL = Data Defination Language
+
+# DML = Data Manupolution Language
+
+- SELECT statement er madhhome data select korty parbo:
+
+# SELECT statement Syntax
+
+SELECT column_list
+FROM table_name;
+
+# sob gulo select korty hole
+
+SELECT ASTERESK
+FROM table_name
