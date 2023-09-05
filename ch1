@@ -1,20 +1,24 @@
-# SELECT Statement
+# DISTINCT statement
 
-- DDL -> CREATE , ALTER , DROP
-- DML -> INSERT , SELECT , UPDATE , DELETE
+# DISTINCT Diye duplicate value show korbe na!
 
-# DDL = Data Defination Language
+SELECT DISTINCT column_name
+FROM TABLE_NAME
 
-# DML = Data Manupolution Language
+# LIMIT statemant diye row ke control kora jabe! and row er count diye info ber korty parbo
 
-- SELECT statement er madhhome data select korty parbo:
+SELECT asteresk FROM student LIMIT 3;
 
-# SELECT statement Syntax
+# ekhane 3 holo 3 ta record dekhabe
 
-SELECT column_list
-FROM table_name;
+SELECT asterest FROM student 2 , 3;
 
-# sob gulo select korty hole
+# uporer 2 , 3 er record diye bojhano hocche je:
 
-SELECT ASTERESK
-FROM table_name
+# prothom 2 ti record dekhano hoby na
+
+# 3 number record theke shuru hobe
+
+- sort records with the ORDER BY Clause with Assanding
+
+SELECT Name FROM student ORDER BY Name;
